@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -47,6 +47,7 @@ group :development do
 	gem 'capistrano', '~> 3.4.0'
 	gem 'capistrano-rails', '~> 1.1.3'
 	gem 'capistrano-rvm', '~> 0.1.2'
+  gem 'capistrano-passenger'
 end
 
 
